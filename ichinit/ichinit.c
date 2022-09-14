@@ -20,10 +20,10 @@
 #include <math.h>
 #include <graph.h>
 #include "judasac.h"
-#include "dos32\dpmi.h"
-#include "dos32\input.h"
-#include "dos32\scans.h"
-#include "dos32\timer.h"
+#include "dos32/dpmi.h"
+#include "dos32/input.h"
+#include "dos32/scans.h"
+#include "dos32/timer.h"
 
 
 // pci.c functions for ich ac97

@@ -5,8 +5,8 @@ jp.exe: jp.obj timer.obj timerasm.obj
         wcl386 -d2 -ldos4g jp.c timer.c timerasm.obj judas.lib
 
 jp.obj: jp.c
-        wcc386 -d2 -w3 -zp4 jp.c
+        wcc386 -d2 -w3 -zp4 -fo=jp.obj jp.c
 timer.obj: timer.c
-        wcc386 -d2 -w3 -zp4 timer.c
+        wcc386 -d2 -w3 -zp4 -fo=timer.obj timer.c
 timerasm.obj: timerasm.asm
         nasm -dwatcom -fobj timerasm.asm

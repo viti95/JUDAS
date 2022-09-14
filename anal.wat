@@ -5,11 +5,11 @@ anal.exe: anal.obj timer.obj timerasm.obj kbd.obj kbdasm.obj
         wcl386 -d2 -ldos4g anal.c timer.c timerasm.obj kbd.c kbdasm.obj judas.lib
         
 anal.obj: anal.c
-        wcc386 -d2 -w3 -zp4 anal.c
+        wcc386 -d2 -w3 -zp4 -fo=anal.obj anal.c
 timer.obj: timer.c
-        wcc386 -d2 -w3 -zp4 timer.c
+        wcc386 -d2 -w3 -zp4 -fo=timer.obj timer.c
 kbd.obj: kbd.c
-        wcc386 -d2 -w3 -zp4 kbd.c
+        wcc386 -d2 -w3 -zp4 -fo=kbd.obj kbd.c
 timerasm.obj: timerasm.asm
         nasm -dwatcom -fobj timerasm.asm
 kbdasm.obj: kbdasm.asm

@@ -1,0 +1,7 @@
+judas.c(2468): Warning! W303: Parameter 'index' has been defined, but not referenced
+judasac.h(1057): Warning! W202: Symbol 'audio_stereo_technology' has been defined, but not referenced
+judasac.h(1093): Warning! W202: Symbol 'audio_codec_list' has been defined, but not referenced
+judas.c(505): Warning! W202: Symbol 'logmessage' has been defined, but not referenced
+judas.c(495): Warning! W202: Symbol 'ac97_display_error_message' has been defined, but not referenced
+judas.c(500): Warning! W202: Symbol 'ac97_clear_error_message' has been defined, but not referenced
+judas.c(2257): Warning! W202: Symbol 'hda_codec_start' has been defined, but not referenced

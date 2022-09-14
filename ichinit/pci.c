@@ -9,10 +9,10 @@
 #include <time.h>
 #include <math.h>
 #include "judasac.h"
-#include "dos32\dpmi.h"
-#include "dos32\input.h"
-#include "dos32\scans.h"
-#include "dos32\timer.h"
+#include "dos32/dpmi.h"
+#include "dos32/input.h"
+#include "dos32/scans.h"
+#include "dos32/timer.h"
 
 
 extern BYTE  pci_config_read_byte(AC97_PCI_DEV *ac97_pci, int index);

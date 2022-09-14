@@ -1,0 +1,2 @@
+judasac.h(10): Warning! W140: Definition of macro 'NULL' not identical to previous definition
+judasac.h(10): Note! I2002: 'NULL' defined in: /opt/watcom/h/stdlib.h(117)
